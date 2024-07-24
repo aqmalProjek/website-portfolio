@@ -27,9 +27,9 @@ const About = () => {
               A BRIEF ABOUT MYSELF
             </h2>
             <p className="font-normal md:text-base text-sm text-gray-700 dark:text-gray-400">
-              Hi, I'm Muchamad Aqmal Hidayat, a Full Stack Developer with a degree in
-              Information Systems from Ma'soem University. My journey in tech
-              began in 2021, and since then, I've worked on numerous projects,
+              Hi, Im Muchamad Aqmal Hidayat, a Full Stack Developer with a degree in
+              Information Systems from Masoem University. My journey in tech
+              began in 2021, and since then, Ive worked on numerous projects,
               honing my skills in both front-end and back-end development.
             </p>
           </div>

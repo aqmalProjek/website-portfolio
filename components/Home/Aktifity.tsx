@@ -29,13 +29,13 @@ const Aktifity = () => {
               )}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Website Company Profile & Marketing PT Muawanah Al Ma'soem
+                Website Company Profile & Marketing PT Muawanah Al Masoem
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
                 company profile and marketing website, is a website for the
-                company profile of PT Muawanah Al Ma'soem and organizes all
+                company profile of PT Muawanah Al Masoem and organizes all
                 centers and branches as well as this website for ordering Al
-                Ma'soem water products
+                Masoem water products
               </p>
               <Button
                 color="warning"
