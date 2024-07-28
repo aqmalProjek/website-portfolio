@@ -37,12 +37,17 @@ const Aktifity = () => {
                 centers and branches as well as this website for ordering Al
                 Masoem water products
               </p>
+             
+
               <Button
                 color="warning"
                 className="lg:max-w-[40%] max-w-[60%] rounded-none text-sm md:text-base"
+                href="https://www.airalmasoem.com/"
+                target="_blank"
               >
                 Read More &gt;
               </Button>
+            
             </Card>
           </div>
           <div className="mt-5 md:mt-0">

@@ -8,6 +8,8 @@ import Digitalisasi from "@/components/Home/Digitalisasi";
 import VisiMisi from "@/components/Home/VisiMisi";
 import StaffCard from "@/components/Home/StaffCard";
 import Aktifity from "@/components/Home/Aktifity";
+import { FaFacebook, FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa6";
+import { TiSocialInstagramCircular } from "react-icons/ti";
 
 export default function Home() {
   return (
@@ -27,10 +29,10 @@ export default function Home() {
         </div>
         <Container className="" >
           <div className="grid md:grid-cols-4 gap-2 mt-10">
-            <StaffCard socialName="Youtube" AccountName="Aqmal Code" Logo="yt.jpg" />
-            <StaffCard socialName="Instagram" AccountName="aqmalh2001" Logo="ig.png" />
-            <StaffCard socialName="Facebook" AccountName="Muchamad Aqmal" Logo="fb.jpg" />
-            <StaffCard socialName="Linkedin" AccountName="Muchamad Aqmal" Logo="linkedin.png" />
+            <StaffCard url="https://www.youtube.com/@AqmalCode-qu7le" socialName="Youtube" AccountName="Aqmal Code" Logo={<FaYoutube className="w-32 h-32"/>} />
+            <StaffCard url="https://www.instagram.com/aqmalh2001/?utm_source=qr&igsh=MWVjemFnem0zZnMxcg%3D%3D" socialName="Instagram" AccountName="aqmalh2001" Logo={<TiSocialInstagramCircular className="w-32 h-32"/>} />
+            <StaffCard url="https://github.com/aqmalProjek" socialName="Github" AccountName="aqmalProjek" Logo={<FaGithub className="w-32 h-32"/>} />
+            <StaffCard url="https://www.linkedin.com/in/muchamad-aqmal-7840332b5/" socialName="Linkedin" AccountName="Muchamad Aqmal" Logo={<FaLinkedin className="w-32 h-32"/>} />
           </div>
         </Container>
       </section>

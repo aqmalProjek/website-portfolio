@@ -9,7 +9,7 @@ const About = () => {
       <Container className="bg-white relative">
         <div className="md:w-[75%] lg:w-[800px] w-full bg-white relative z-0 ">
           <Image
-            src={"/bg.jpg"}
+            src={"/bg-s.png"}
             alt="Shoes"
             width={0}
             height={0}
