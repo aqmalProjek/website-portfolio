@@ -6,7 +6,7 @@ const Jumbotron = () => {
   return (
     <section className=" w-full min-h-[70vh] bg-black max-h-[800px] relative" id="home">
       <Image
-        src="/Bg_1.jpg"
+        src="/bg_1.jpg"
         alt="Gambaran event"
         fill
         objectFit="cover"
