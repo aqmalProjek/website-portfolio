@@ -63,8 +63,7 @@ const Aktifity = () => {
                   Company Profile PT Internusa
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                  Here are the biggest enterprise technology acquisitions of
-                  2021 so far, in reverse chronological order.
+                  A company profile and administrative about tour & travel
                 </p>
               </Card>
               <Card
@@ -72,35 +71,33 @@ const Aktifity = () => {
                 className="w-full shadow-none rounded-none border-none"
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Website Profile & PPDB SMPN 2 Cicalengka
+                  Website Profile & PPDB SMPN 2 Cicalengka 
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                  Here are the biggest enterprise technology acquisitions of
-                  2021 so far, in reverse chronological order.
+                This website is currently under development
                 </p>
               </Card>
               <Card
-                href="#"
+                href="https://eventaja.vercel.app/"
                 className="w-full shadow-none rounded-none border-none"
+                
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Website Campus Review
+                  Event Aja
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                  Here are the biggest enterprise technology acquisitions of
-                  2021 so far, in reverse chronological order.
+                The website is a bridge between the event owner, service providers and sponsors
                 </p>
               </Card>
               <Card
-                href="#"
+                href="https://spp-teal.vercel.app/"
                 className="w-full shadow-none rounded-none border-none"
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Website Payment SPP
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                  Here are the biggest enterprise technology acquisitions of
-                  2021 so far, in reverse chronological order.
+                This is an interactive, school payment website whose UI/UX design is close to the original payment
                 </p>
               </Card>
             </div>
