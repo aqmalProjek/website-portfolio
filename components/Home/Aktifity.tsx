@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container";
 import { Button, Card } from "flowbite-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Aktifity = () => {
   return (
@@ -17,7 +18,7 @@ const Aktifity = () => {
               renderImage={() => (
                 <div className="w-full  relative">
                   <Image
-                    src={"/projek1.png"}
+                    src={"/erp.png"}
                     alt="Shoes"
                     width={0}
                     height={0}
@@ -29,25 +30,14 @@ const Aktifity = () => {
               )}
             >
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                Website Company Profile & Marketing PT Muawanah Al Masoem
+                Complex ERP In PT Kencana Metalindo
               </h5>
               <p className="font-normal text-gray-700 dark:text-gray-400">
-                company profile and marketing website, is a website for the
-                company profile of PT Muawanah Al Masoem and organizes all
-                centers and branches as well as this website for ordering Al
-                Masoem water products
+                I have experience developing and maintaining complex ERP systems with hundreds to nearly a thousand tables per branch, where each branch has its own database yet remains interconnected and relational across branches. In this project, I designed, built, and integrated various business modules (sales, purchasing, inventory, accounting, and multi-branch consolidation) using complex data relationships to ensure business processes run efficiently, systematically, and consistently across all branches.
               </p>
-             
-
-              <Button
-                color="warning"
-                className="lg:max-w-[40%] max-w-[60%] rounded-none text-sm md:text-base"
-                href="https://www.airalmasoem.com/"
-                target="_blank"
-              >
+              <Link href="/detailproject/erp" className="lg:max-w-[40%] max-w-[60%] rounded-none text-sm md:text-base bg-yellow-400 text-white flex items-center justify-center py-2">     
                 Read More &gt;
-              </Button>
-            
+                </Link>
             </Card>
           </div>
           <div className="mt-5 md:mt-0">
@@ -59,11 +49,18 @@ const Aktifity = () => {
                 href="#"
                 className="w-full shadow-none rounded-none border-none"
               >
-                <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Company Profile PT Internusa
-                </h5>
-                <p className="font-normal text-gray-700 dark:text-gray-400">
-                  A company profile and administrative about tour & travel
+                <a className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white" href="https://www.airalmasoem.com/"
+                  target="_blank">
+                  Website Company Profile & Marketing PT Muawanah Al Masoem
+                </a>
+                <p
+                  className="font-normal text-gray-700 dark:text-gray-400"
+                  
+                >
+                  company profile and marketing website, is a website for the
+                  company profile of PT Muawanah Al Masoem and organizes all
+                  centers and branches as well as this website for ordering Al
+                  Masoem water products
                 </p>
               </Card>
               <Card
@@ -71,22 +68,22 @@ const Aktifity = () => {
                 className="w-full shadow-none rounded-none border-none"
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  Website Profile & PPDB SMPN 2 Cicalengka 
+                  Website Profile & PPDB SMPN 2 Cicalengka
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                This website is currently under development
+                  This website is currently under development
                 </p>
               </Card>
               <Card
                 href="https://eventaja.vercel.app/"
                 className="w-full shadow-none rounded-none border-none"
-                
               >
                 <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   Event Aja
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                The website is a bridge between the event owner, service providers and sponsors
+                  The website is a bridge between the event owner, service
+                  providers and sponsors
                 </p>
               </Card>
               <Card
@@ -97,7 +94,8 @@ const Aktifity = () => {
                   Website Payment SPP
                 </h5>
                 <p className="font-normal text-gray-700 dark:text-gray-400">
-                This is an interactive, school payment website whose UI/UX design is close to the original payment
+                  This is an interactive, school payment website whose UI/UX
+                  design is close to the original payment
                 </p>
               </Card>
             </div>
